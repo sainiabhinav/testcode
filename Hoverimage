@@ -1,0 +1,36 @@
+<html>
+<head>
+<style type="text/css">
+    .card {
+        height: 90vh;
+        width: 90vw;
+        position: relative;
+        display: inline-block;
+        
+        text-align: center;
+    }
+    .card .back1{
+       margin-left: 125px;
+        margin-top: 190px
+    }
+    .card .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .back1:hover .img-top {
+        display: inline;
+    }
+</style>
+</head>
+<body>
+    <div class="card">
+
+    <img src="slice1.png" alt="Card Back" class="back1">
+
+        <img src="slice2.png" class="img-top" alt="Card Front1">
+    </div>
+</body>
+</html>       
